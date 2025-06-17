@@ -3,16 +3,18 @@ Stack Requirements:
 • Node.js v22/ ExpressJS
 • Angular v19 /Angular Material
 • MongoDB
+
 Initial/Setup:
 • Create a backend Node.js/ExpressJS Server
 • Servershould be running on Port 3000 Create a folder:
-o controllers/
-o routes/
-o helpers/
-o models/
+    o controllers/
+    o routes/
+    o helpers/
+    o models/
 • app.js file should contain all the initializations
 • Create an Angular App with Angular Material
 • The app should be configured to run on port 4200
+
 Objective:
 • We want to connect to GitHub via API using OAuth (2) authentication.
 • Documentation: https://docs.github.com/en/rest?apiVersion=2022-11-28.
@@ -54,12 +56,14 @@ Entity Dropdown: List of Collections in the GitHub database.
 Search: Ability to search keyword in the AG Grid.
 AG Grid Table will display all the fields from the collection. It will get the fields
 dynamically from the selected collection and display them in the AG Grid.
+
 Some additional requirements:
 - Utilize the maximum real estate
 - All columns should support filters
 - Each field in the collection should be a separate field and a separate column.
 - Search should apply search in all the columns.
 - Implement Pagination.
+
 Testing Tips:
 • Create a GitHub account for testing purposes.
 • Import Open source/Public Repos.
